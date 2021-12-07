@@ -15,6 +15,26 @@ body {
     margin-bottom: 30px;
 }
 
-button {
+.save-btn {
     margin-bottom: 30px;
+}
+
+.toolbar {
+    width: 840px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.toolbar-icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.toolbar-icon:hover {
+    color: blue;
+}
+
+.toolbar-btn {
+    background: none;
+    border: none;
 }

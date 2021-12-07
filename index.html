@@ -3,11 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>My Editor</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <div class="toolbar">
+        <button class="toolbar-btn">
+            <i class="material-icons toolbar-icon">format_bold</i>
+        </button>
+    </div>
     <div id="editor" contenteditable="true" class="editor"></div>
-    <button onclick="saveContent()">Сохранить</button>
+    <button class="save-btn" onclick="saveContent()">Сохранить</button>
     <button onclick="insertContent()">Вставить</button>
     <script src="index.js"></script>
 </body>
